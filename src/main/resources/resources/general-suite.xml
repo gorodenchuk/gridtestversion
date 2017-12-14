@@ -3,9 +3,9 @@
 <suite name="General test suite" parallel="tests" thread-count="1" verbose="1" >
 
 		<test name="SingleTestSuite1">
-			<parameter name="browserName" value="chrome" />
+			<parameter name="browserName" value="firefox" />
 			<classes>
-				<class name="grid.selenium.test.TestBaseGrid" />
+				<class name="Grid_2" />
 			</classes>
 		</test>
  		
